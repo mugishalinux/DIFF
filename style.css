@@ -1,0 +1,222 @@
+.hero{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(135deg , rgba(0,0,0,0.7)0%, rgba(0,0,0,0.7)100%),
+    url("img/banner.jpg")center no-repeat;
+	background-size:cover;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.hero .banner-container{
+	width:80%;
+	border:solid red 3px;
+}
+.hero .banner-container button{
+	margin: auto;
+}
+.container .main-start-cont .row .start{
+	display:flex;
+	align-items:center;
+}
+.container .main-start-cont .row .start .start-1 a:hover{
+	background-color:#212529;
+	color:#f53f51;
+}
+@media screen and (max-width:480px){
+	.container .main-start-cont .row .start .start-1 a{
+	margin-bottom:40px;
+}
+}
+.hero-2{
+	width:80%;
+	height:50vh;
+	background:linear-gradient(135deg , rgba(0,0,0,0.7)0%, rgba(0,0,0,0.7)100%),
+    url("img/graduation-2.jpg")center no-repeat;
+	background-size:cover;
+	margin:0 auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.hero-2 .hero-2-cont{
+	width:70%;
+}
+.hero-2 .hero-2-cont .btn-class{
+display:flex;
+justify-content:center;
+}
+.hero-2 .hero-2-cont .btn-class .btn-class-marg button{
+ background-color:#e4ba16;
+ border:solid #e4ba16 1px; 
+ border-radius: solid #e4ba16 1px; 
+}
+.hero-2 .hero-2-cont .btn-class .btn-class-marg button:hover{
+ background-color:black;
+ color:#e4ba16;
+ border:solid #e4ba16 1px; 
+ border-radius: solid #e4ba16 1px; 
+}
+
+.hero-2 .hero-2-cont h2{
+	font-size:2em;
+}
+.hero-2 .hero-2-cont p{
+	font-size:1.3rem;
+	color:rgb(170,170,170);
+}
+.hero-2 .hero-2-cont hr{
+	width:10%;
+	border-bottom: solid #e4ba16 2px;
+}
+.offers{
+	width:100%;
+}
+
+.offers .title h1 , h5{
+	color:rgb(100,100,100);
+	font-family: "Open Sans",sans-serif;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:17px;
+	justify-content:center;
+}
+.offers .container{
+	width:100%;
+}
+.offers .container .row{
+	width:100%;
+    margin: 0 auto;
+}
+.offers .container .row .hash{
+
+}
+.offers .container .row .hash1{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offers .container .row .hash1 .btn-class{
+  width:90%;
+  margin:0 auto;
+}
+.offers .container .row .hash1 .btn-class .btn-class-marg{
+  display:flex;
+  justify-content:center;
+}
+
+.offers .container .row .hash1 button{
+	background-color:#f53f51;
+	color:#fafafa;
+	border:solid #f53f51 1px;
+    
+}
+.offers .container .row .hash1 hr{
+	width:30%;
+	border-bottom:solid #f53f51 1px;
+    
+}
+.offers .container .row .hash1 button{
+	background-color:#f53f51;
+	color:#fafafa;
+	border:solid #f53f51 1px;
+
+}
+.offers .container .row .hash1 button:hover{
+ background-color:#212529;
+ color:#fafafa; 
+ border:solid #212529 1px;
+}
+
+@media screen and (max-width:480px){
+	.hero-2{
+	width:80%;
+	height:70vh;
+}
+}
+.blog .container h1{
+	text-align:center;
+	padding:2em;
+	color:rgb(100,100,100);
+	padding-top:3rem
+	padding-bottom:5rem;
+} 
+.blog .container .blog-post .row .post-1{
+   border-bottom:solid black 1px;
+}
+.blog .container .blog-post .row .post-1 img{
+   background:linear-gradient(135deg , rgba(0,0,0,0.7)0%, rgba(0,0,0,0.7)100%);
+}
+.blog .container .blog-post .row .post-1 a:hover, h4:hover{
+  color:red;
+  text-decoration:underline;
+}
+.partz h3{
+	color:rgb(100,100,100);
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.partz .h-line{
+	border-bottom:solid red 1px;
+	width:20%;
+	padding-bottom:50px;
+}
+.partz .carousel-inner .carousel-item{
+	
+	display:flex;
+	justify-content:space-between;
+}
+.footer-container{
+	padding-top:60px;
+}
+.footer-container .row{
+	width:90%;
+	margin:0 auto;
+}
+.footer-container .row .has{
+	width:90%;
+	margin:0 auto;
+}
+.footer-container hr{
+	border-bottom:solid black 1px; 
+}
+.footer-container .row .has h5{
+	padding-bottom:20px;
+	font-family:Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    text-align:start;
+}
+.footer-container .row .has a{
+		font-family:Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        color:rgb(100,100,100);
+}
+.footer-container .row .has i{
+		font-size:20px;
+	   color:#f53f51;
+}
+.footer-container .row .has a:hover{
+		font-family:Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        color:#f53f51;
+        font-size:1.1em;
+}
+header{
+   width:100%;
+	height:3.5rem;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	position:fixed;
+	background:linear-gradient(135deg , rgba(0,0,0,0.7)0%, rgba(0,0,0,0.7)100%);
+}
+header nav{
+	background:linear-gradient(135deg , rgba(0,0,0,0.7)0%, rgba(0,0,0,0.7)100%);
+}
+header nav a{
+	color:white;
+    font-family:Apercu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.head-1 .head-2 .head-3 .navbar-nav .nav-item a:hover{
+color:#f53f51;
+}
+.dflex{
+  margin: 0 auto;
+}
